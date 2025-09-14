@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Louis Follet</title>
+    <meta name="description" content="Complete list of publications by Louis Follet in quantum photonics and AI research.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .publications-hero {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 6rem 0 4rem;
+            text-align: center;
+        }
+        
+        .publications-hero h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .publications-hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .publication-year {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin: 3rem 0 1.5rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #2c3e50;
+        }
+        
+        .publication-year:first-of-type {
+            margin-top: 2rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin: 2rem 0;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            color: #34495e;
+        }
+        
+        .back-link::before {
+            content: "← ";
+            margin-right: 0.5rem;
+        }
+        
+        .publication-stats {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#research" class="nav-link">Research</a>
+            <a href="index.html#publications" class="nav-link">Publications</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="interests.html" class="nav-link">Interests</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="publications-hero">
+        <div class="container">
+            <h1>Publications</h1>
+            <p>Complete list of my research publications in quantum photonics and artificial intelligence.</p>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section">
+        <div class="container">
+            <a href="index.html" class="back-link">Back to Main Site</a>
+            
+            <div class="publication-stats">
+                <h3>Publication Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-papers">-</span>
+                        <span class="stat-label">Total Papers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="first-author">-</span>
+                        <span class="stat-label">First Author</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="citations">-</span>
+                        <span class="stat-label">Citations</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="h-index">-</span>
+                        <span class="stat-label">H-Index</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="publications-by-year">
+                <!-- Publications will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Louis Follet. All rights reserved.</p>
+            <p class="last-updated">Last updated: <span id="last-updated"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Extended publications data
+        const publicationsData = [
+            {
+                title: "Quantum Photonic Neural Networks for Machine Learning",
+                authors: "L. Follet, A. Smith, B. Johnson, et al.",
+                venue: "Nature Photonics, 2024",
+                year: 2024,
+                type: "journal",
+                firstAuthor: true,
+                citations: 45,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "arXiv", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            },
+            {
+                title: "Fault-Tolerant Quantum Error Correction in Photonic Systems",
+                authors: "L. Follet, C. Davis, M. Wilson",
+                venue: "Physical Review Letters, 2024",
+                year: 2024,
+                type: "journal",
+                firstAuthor: true,
+                citations: 32,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "arXiv", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            },
+            {
+                title: "Deep Learning Approaches to Quantum State Reconstruction",
+                authors: "L. Follet, R. Brown, S. Lee",
+                venue: "Quantum Information Processing, 2023",
+                year: 2023,
+                type: "journal",
+                firstAuthor: true,
+                citations: 28,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "arXiv", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            },
+            {
+                title: "Integrated Photonic Quantum Gates with High Fidelity",
+                authors: "M. Wilson, L. Follet, A. Chen",
+                venue: "Optics Express, 2023",
+                year: 2023,
+                type: "journal",
+                firstAuthor: false,
+                citations: 18,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            },
+            {
+                title: "Machine Learning for Quantum Circuit Optimization",
+                authors: "L. Follet, S. Kim, T. Rodriguez",
+                venue: "IEEE Quantum Week, 2023",
+                year: 2023,
+                type: "conference",
+                firstAuthor: true,
+                citations: 12,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "Slides", url: "#" }
+                ]
+            },
+            {
+                title: "Photonic Quantum Computing: A Review",
+                authors: "A. Review, L. Follet, B. Survey",
+                venue: "Nature Reviews Physics, 2022",
+                year: 2022,
+                type: "journal",
+                firstAuthor: false,
+                citations: 67,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            },
+            {
+                title: "Quantum Interference in Integrated Photonic Circuits",
+                authors: "L. Follet, C. Optics, D. Photonics",
+                venue: "Applied Physics Letters, 2022",
+                year: 2022,
+                type: "journal",
+                firstAuthor: true,
+                citations: 23,
+                links: [
+                    { text: "PDF", url: "#" },
+                    { text: "DOI", url: "#" }
+                ]
+            }
+        ];
+
+        // Load publications
+        document.addEventListener('DOMContentLoaded', function() {
+            loadPublications();
+            updateStats();
+            updateLastUpdated();
+        });
+
+        function loadPublications() {
+            const container = document.getElementById('publications-by-year');
+            if (!container) return;
+
+            // Group publications by year
+            const publicationsByYear = {};
+            publicationsData.forEach(pub => {
+                if (!publicationsByYear[pub.year]) {
+                    publicationsByYear[pub.year] = [];
+                }
+                publicationsByYear[pub.year].push(pub);
+            });
+
+            // Sort years in descending order
+            const sortedYears = Object.keys(publicationsByYear).sort((a, b) => b - a);
+
+            container.innerHTML = sortedYears.map(year => `
+                <div class="publication-year">${year}</div>
+                ${publicationsByYear[year].map(pub => `
+                    <div class="publication-item">
+                        <div class="publication-title">${pub.title}</div>
+                        <div class="publication-authors">${pub.authors}</div>
+                        <div class="publication-venue">${pub.venue}</div>
+                        <div class="publication-links">
+                            ${pub.links.map(link => `<a href="${link.url}">${link.text}</a>`).join('')}
+                        </div>
+                    </div>
+                `).join('')}
+            `).join('');
+        }
+
+        function updateStats() {
+            const totalPapers = publicationsData.length;
+            const firstAuthorPapers = publicationsData.filter(pub => pub.firstAuthor).length;
+            const totalCitations = publicationsData.reduce((sum, pub) => sum + pub.citations, 0);
+            
+            // Simple H-index calculation (in practice, this would be more sophisticated)
+            const hIndex = Math.min(firstAuthorPapers, Math.floor(Math.sqrt(totalCitations)));
+
+            document.getElementById('total-papers').textContent = totalPapers;
+            document.getElementById('first-author').textContent = firstAuthorPapers;
+            document.getElementById('citations').textContent = totalCitations;
+            document.getElementById('h-index').textContent = hIndex;
+        }
+
+        function updateLastUpdated() {
+            const lastUpdatedElement = document.getElementById('last-updated');
+            if (!lastUpdatedElement) return;
+            
+            const now = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            lastUpdatedElement.textContent = now.toLocaleDateString('en-US', options);
+        }
+    </script>
+</body>
+</html>

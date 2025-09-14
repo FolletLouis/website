@@ -1,0 +1,118 @@
+{
+  "personal": {
+    "name": "Louis Follet",
+    "title": "PhD Student in Quantum Photonics & AI at MIT",
+    "email": "louis@mit.edu",
+    "office": "Building 36, Room 123, MIT",
+    "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+    "bio": [
+      "I am a PhD student in the Department of Electrical Engineering and Computer Science at MIT, where I work at the intersection of quantum photonics and artificial intelligence. My research focuses on developing novel photonic systems for quantum computing applications and exploring how machine learning can enhance quantum information processing.",
+      "Before joining MIT, I completed my Master's degree in Physics at École Polytechnique, where I developed a strong foundation in quantum mechanics and photonics. My work has been published in top-tier journals and presented at major conferences in the field."
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?user=louis",
+      "github": "https://github.com/louisfollet",
+      "linkedin": "https://linkedin.com/in/louisfollet",
+      "orcid": "https://orcid.org/0000-0000-0000-0000"
+    }
+  },
+  "research": [
+    {
+      "title": "Quantum Photonic Neural Networks",
+      "description": "Developing novel architectures for quantum neural networks using integrated photonic circuits. This work explores how quantum interference can be harnessed for machine learning tasks with exponential speedup potential.",
+      "links": [
+        { "text": "Paper", "url": "#" },
+        { "text": "Code", "url": "#" },
+        { "text": "Demo", "url": "#" }
+      ]
+    },
+    {
+      "title": "Fault-Tolerant Quantum Error Correction",
+      "description": "Investigating photonic approaches to quantum error correction for scalable quantum computing. Our methods show improved error thresholds compared to traditional approaches.",
+      "links": [
+        { "text": "Paper", "url": "#" },
+        { "text": "Preprint", "url": "#" }
+      ]
+    },
+    {
+      "title": "Machine Learning for Quantum State Tomography",
+      "description": "Using deep learning techniques to reconstruct quantum states from limited measurement data. This work significantly reduces the number of measurements required for accurate state reconstruction.",
+      "links": [
+        { "text": "Paper", "url": "#" },
+        { "text": "Code", "url": "#" }
+      ]
+    },
+    {
+      "title": "Integrated Photonic Quantum Processors",
+      "description": "Designing and fabricating integrated photonic devices for quantum information processing. Our latest prototypes demonstrate high-fidelity quantum gates with improved scalability.",
+      "links": [
+        { "text": "Paper", "url": "#" },
+        { "text": "Patent", "url": "#" }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Quantum Photonic Neural Networks for Machine Learning",
+      "authors": "L. Follet, A. Smith, B. Johnson, et al.",
+      "venue": "Nature Photonics, 2024",
+      "links": [
+        { "text": "PDF", "url": "#" },
+        { "text": "arXiv", "url": "#" },
+        { "text": "DOI", "url": "#" }
+      ]
+    },
+    {
+      "title": "Fault-Tolerant Quantum Error Correction in Photonic Systems",
+      "authors": "L. Follet, C. Davis, M. Wilson",
+      "venue": "Physical Review Letters, 2024",
+      "links": [
+        { "text": "PDF", "url": "#" },
+        { "text": "arXiv", "url": "#" },
+        { "text": "DOI", "url": "#" }
+      ]
+    },
+    {
+      "title": "Deep Learning Approaches to Quantum State Reconstruction",
+      "authors": "L. Follet, R. Brown, S. Lee",
+      "venue": "Quantum Information Processing, 2023",
+      "links": [
+        { "text": "PDF", "url": "#" },
+        { "text": "arXiv", "url": "#" },
+        { "text": "DOI", "url": "#" }
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "title": "Photography",
+      "description": "I love capturing moments and exploring different perspectives through my camera lens. From urban landscapes to nature scenes, photography helps me see the world differently.",
+      "icon": "📸"
+    },
+    {
+      "title": "Hiking & Outdoor Adventures",
+      "description": "Exploring nature trails and mountains is my way of recharging. There's something magical about being in the wilderness and disconnecting from technology.",
+      "icon": "🥾"
+    },
+    {
+      "title": "Classical Music",
+      "description": "I play the piano and enjoy attending concerts. Music provides a perfect balance to the analytical work in research, offering emotional and creative expression.",
+      "icon": "🎹"
+    },
+    {
+      "title": "Cooking",
+      "description": "Experimenting with different cuisines and techniques is like conducting experiments in the kitchen. I particularly enjoy French and Asian cooking.",
+      "icon": "👨‍🍳"
+    },
+    {
+      "title": "Reading",
+      "description": "From science fiction to philosophy, I believe reading broadly helps develop creativity and critical thinking skills that benefit my research work.",
+      "icon": "📚"
+    },
+    {
+      "title": "Travel",
+      "description": "Experiencing different cultures and meeting people from around the world has broadened my perspective and inspired new ideas for my research.",
+      "icon": "✈️"
+    }
+  ]
+}
