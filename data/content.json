@@ -2,85 +2,92 @@
   "personal": {
     "name": "Louis Follet",
     "title": "PhD Student in Quantum Photonics & AI at MIT",
-    "email": "louis@mit.edu",
-    "office": "Building 36, Room 123, MIT",
-    "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+    "email": "louisf13@mit.edu",
+    "office": "EECS Department, MIT",
+    "address": "468 Commonwealth Avenue, Boston, MA 02215",
+    "phone": "+1 857-777-9890",
     "bio": [
-      "I am a PhD student in the Department of Electrical Engineering and Computer Science at MIT, where I work at the intersection of quantum photonics and artificial intelligence. My research focuses on developing novel photonic systems for quantum computing applications and exploring how machine learning can enhance quantum information processing.",
-      "Before joining MIT, I completed my Master's degree in Physics at École Polytechnique, where I developed a strong foundation in quantum mechanics and photonics. My work has been published in top-tier journals and presented at major conferences in the field."
+      "I am a PhD student in the Department of Electrical Engineering and Computer Science at MIT, working in the Quantum Photonics & AI Group under Professor Dirk Englund. My research specializes in AI for Science, quantum optics, and photonics, with a strong focus on leveraging machine learning to tackle complex physics and engineering challenges.",
+      "I develop novel physics-informed ML frameworks (PINNs, Neural Operators, Bayesian Inference) to create surrogate models and solve inverse problems in semiconductor fabrication. My work also involves designing and optimizing photonic crystal cavities for quantum information processing and building automated characterization systems that integrate optical metrology with ML-driven data analysis.",
+      "Before MIT, I completed dual degrees from École Normale Supérieure Paris-Saclay and Institut d'Optique Graduate School, with specialization in Quantum Technologies. I have research experience from prestigious institutions including University of Cambridge (Cavendish Laboratory), Collège de France, and NTT Research."
     ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=louis",
-      "github": "https://github.com/louisfollet",
+      "github": "https://github.com/FolletLouis",
       "linkedin": "https://linkedin.com/in/louisfollet",
       "orcid": "https://orcid.org/0000-0000-0000-0000"
     }
   },
   "research": [
     {
-      "title": "Quantum Photonic Neural Networks",
-      "description": "Developing novel architectures for quantum neural networks using integrated photonic circuits. This work explores how quantum interference can be harnessed for machine learning tasks with exponential speedup potential.",
+      "title": "Physics-Informed ML for Semiconductor Fabrication",
+      "description": "Developing novel physics-informed ML frameworks (PINNs, Neural Operators, Bayesian Inference) to create surrogate models and solve inverse problems in modeling fabrication variations in foundry processes. This work enables more accurate prediction and control of manufacturing outcomes.",
       "links": [
-        { "text": "Paper", "url": "#" },
-        { "text": "Code", "url": "#" },
-        { "text": "Demo", "url": "#" }
+        { "text": "Research Group", "url": "https://www.rle.mit.edu/qp/" }
       ]
     },
     {
-      "title": "Fault-Tolerant Quantum Error Correction",
-      "description": "Investigating photonic approaches to quantum error correction for scalable quantum computing. Our methods show improved error thresholds compared to traditional approaches.",
+      "title": "Photonic Crystal Cavities for Quantum Computing",
+      "description": "Designing and optimizing photonic crystal cavities for quantum and information processing through advanced modeling techniques (Guided-Mode Expansion, FDTD) and full-cycle fabrication workflows with GlobalFoundries and AIM Photonics.",
       "links": [
-        { "text": "Paper", "url": "#" },
-        { "text": "Preprint", "url": "#" }
+        { "text": "CLEO 2025", "url": "#" },
+        { "text": "QuARC 2024", "url": "#" }
       ]
     },
     {
-      "title": "Machine Learning for Quantum State Tomography",
-      "description": "Using deep learning techniques to reconstruct quantum states from limited measurement data. This work significantly reduces the number of measurements required for accurate state reconstruction.",
+      "title": "Automated Optical Metrology Systems",
+      "description": "Building automated characterization systems that integrate complex optical metrology with ML-driven data analysis, enabling rapid and high-precision measurements of photonic devices and quantum systems.",
       "links": [
-        { "text": "Paper", "url": "#" },
-        { "text": "Code", "url": "#" }
+        { "text": "Lab Website", "url": "https://www.rle.mit.edu/qp/" }
       ]
     },
     {
-      "title": "Integrated Photonic Quantum Processors",
-      "description": "Designing and fabricating integrated photonic devices for quantum information processing. Our latest prototypes demonstrate high-fidelity quantum gates with improved scalability.",
+      "title": "Quantum Spin Defects in 2D Materials",
+      "description": "Contributed to breakthrough research on spin-active defects in hexagonal Boron Nitride films at University of Cambridge, developing Python-based control software and conducting ODMR experiments for quantum sensing applications.",
       "links": [
-        { "text": "Paper", "url": "#" },
-        { "text": "Patent", "url": "#" }
+        { "text": "Nature Materials", "url": "#" },
+        { "text": "APS 2024", "url": "#" }
       ]
     }
   ],
   "publications": [
     {
-      "title": "Quantum Photonic Neural Networks for Machine Learning",
-      "authors": "L. Follet, A. Smith, B. Johnson, et al.",
-      "venue": "Nature Photonics, 2024",
+      "title": "Programmable Quantum Matter: Heralding Large Cluster States in Driven Inhomogeneous Spin Ensembles",
+      "authors": "P. Anand*, L. Follet*, O. Hooybergs*, D. R. Englund (*Equal contribution)",
+      "venue": "arXiv preprint, 2025",
+      "year": 2025,
+      "type": "preprint",
+      "firstAuthor": true,
       "links": [
-        { "text": "PDF", "url": "#" },
-        { "text": "arXiv", "url": "#" },
-        { "text": "DOI", "url": "#" }
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2509.02992" }
       ]
     },
     {
-      "title": "Fault-Tolerant Quantum Error Correction in Photonic Systems",
-      "authors": "L. Follet, C. Davis, M. Wilson",
-      "venue": "Physical Review Letters, 2024",
+      "title": "A quantum coherent spin in hexagonal boron nitride at ambient conditions",
+      "authors": "H. Stern, C. Gilardoni, Q. Gu, S. Eizagirre Barker, O. Powell, X. Deng, L. Follet, C. Li, A. Ramsay, H. Tan, I. Aharonovich, M. Atatüre",
+      "venue": "Nature Materials, 2024",
+      "year": 2024,
+      "type": "journal",
+      "firstAuthor": false,
       "links": [
-        { "text": "PDF", "url": "#" },
-        { "text": "arXiv", "url": "#" },
-        { "text": "DOI", "url": "#" }
+        { "text": "Nature Materials", "url": "#" }
       ]
+    }
+  ],
+  "conferences": [
+    {
+      "title": "Thermal Infrared Detection with an Optically-Probed Photonic Crystal Bolometer",
+      "authors": "L. Follet",
+      "venue": "CLEO: Conference on Lasers and Electro-Optics",
+      "year": 2025,
+      "type": "conference"
     },
     {
-      "title": "Deep Learning Approaches to Quantum State Reconstruction",
-      "authors": "L. Follet, R. Brown, S. Lee",
-      "venue": "Quantum Information Processing, 2023",
-      "links": [
-        { "text": "PDF", "url": "#" },
-        { "text": "arXiv", "url": "#" },
-        { "text": "DOI", "url": "#" }
-      ]
+      "title": "Pathway towards large-scale characterization of Er³⁺-doped state-of-the-art Si nanophotonic cavities",
+      "authors": "L. Follet, I. Berkman, Q. Gu, C. Panuski, I. Christen, D. Englund",
+      "venue": "QSEC Annual Research Conference (QuARC)",
+      "year": 2024,
+      "type": "conference"
     }
   ],
   "interests": [
