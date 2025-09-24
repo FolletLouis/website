@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Louis Follet - Quantum Photonics & AI Researcher</title>
     <meta name="description" content="PhD student at MIT specializing in Quantum Photonics & AI. Research in quantum computing, photonic systems, and machine learning applications.">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=24">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,9 +15,9 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#about" class="nav-link">About</a>
+            <a href="#news" class="nav-link">News</a>
             <a href="#research" class="nav-link">Research</a>
             <a href="#publications" class="nav-link">Publications</a>
-            <a href="#contact" class="nav-link">Contact</a>
             <a href="interests.html" class="nav-link">Interests</a>
         </div>
     </nav>
@@ -27,17 +27,17 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-image">
-                    <img src="images/louis-follet.jpg" alt="Louis Follet" id="hero-photo">
+                    <img src="images/louis-follet.png" alt="Louis Follet" id="hero-photo">
                 </div>
                 <div class="hero-text">
                     <h1>Louis Follet</h1>
                     <p class="tagline">PhD Student in Quantum Photonics & AI at MIT</p>
-                    <p class="hero-description">Advancing quantum computing through photonic systems and machine learning</p>
+                    <p class="hero-description">Exploring the intersection of photonics, quantum science, and machine learning.</p>
                     <div class="hero-links">
-                        <a href="mailto:louis@mit.edu" class="contact-link">Email</a>
-                        <a href="https://scholar.google.com/citations?user=louis" class="contact-link">Google Scholar</a>
-                        <a href="https://github.com/louisfollet" class="contact-link">GitHub</a>
-                        <a href="https://linkedin.com/in/louisfollet" class="contact-link">LinkedIn</a>
+                        <a href="mailto:louisf13@mit.edu" class="contact-link">Email</a>
+                        <a href="https://scholar.google.com/citations?user=_03ge3YAAAAJ&hl=en" class="contact-link">Google Scholar</a>
+                        <a href="https://github.com/FolletLouis" class="contact-link">GitHub</a>
+                        <a href="www.linkedin.com/in/louis-follet-a74100197" class="contact-link">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -48,12 +48,21 @@
     <section id="about" class="section">
         <div class="container">
             <h2>About</h2>
-            <div class="about-content">
-                <p>I am a PhD student in the Department of Electrical Engineering and Computer Science at MIT, where I work at the intersection of quantum photonics and artificial intelligence. My research focuses on developing novel photonic systems for quantum computing applications and exploring how machine learning can enhance quantum information processing.</p>
-                <p>Before joining MIT, I completed my Master's degree in Physics at École Polytechnique, where I developed a strong foundation in quantum mechanics and photonics. My work has been published in top-tier journals and presented at major conferences in the field.</p>
+            <div class="about-content" id="about-content">
+                <!-- Bio content will be loaded dynamically -->
                 <div class="cv-link">
                     <a href="documents/cv.pdf" class="btn btn-primary" target="_blank">Download CV</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <h2>News & Highlights</h2>
+            <div class="news-timeline" id="news-content">
+                <!-- News items will be loaded dynamically -->
             </div>
         </div>
     </section>
@@ -62,8 +71,26 @@
     <section id="research" class="section">
         <div class="container">
             <h2>Research</h2>
-            <div class="research-grid" id="research-projects">
-                <!-- Research projects will be loaded dynamically -->
+            
+            <div class="research-section">
+                <h3>AI for Science</h3>
+                <div class="research-grid" id="ai-research">
+                    <!-- AI for Science research projects will be loaded dynamically -->
+                </div>
+            </div>
+            
+            <div class="research-section">
+                <h3>Quantum Systems</h3>
+                <div class="research-grid" id="quantum-research">
+                    <!-- Quantum research projects will be loaded dynamically -->
+                </div>
+            </div>
+            
+            <div class="research-section">
+                <h3>Photonics</h3>
+                <div class="research-grid" id="photonics-research">
+                    <!-- Photonics research projects will be loaded dynamically -->
+                </div>
             </div>
         </div>
     </section>
@@ -76,47 +103,19 @@
                 <div class="selected-publications" id="selected-pubs">
                     <!-- Selected publications will be loaded dynamically -->
                 </div>
-                <div class="publications-footer">
-                    <a href="publications.html" class="btn btn-secondary">View All Publications</a>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <strong>Email:</strong> <a href="mailto:louis@mit.edu">louis@mit.edu</a>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Office:</strong> Building 36, Room 123, MIT
-                    </div>
-                    <div class="contact-item">
-                        <strong>Address:</strong> 77 Massachusetts Ave, Cambridge, MA 02139
-                    </div>
-                </div>
-                <div class="contact-links">
-                    <a href="https://scholar.google.com/citations?user=louis" class="contact-link">Google Scholar</a>
-                    <a href="https://github.com/louisfollet" class="contact-link">GitHub</a>
-                    <a href="https://linkedin.com/in/louisfollet" class="contact-link">LinkedIn</a>
-                    <a href="https://orcid.org/0000-0000-0000-0000" class="contact-link">ORCID</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Louis Follet. All rights reserved.</p>
+            <p>&copy; 2025 Louis Follet.</p>
             <p class="last-updated">Last updated: <span id="last-updated"></span></p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=22"></script>
 </body>
 </html>
