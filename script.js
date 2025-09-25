@@ -406,7 +406,12 @@ function setupImageFallback() {
 // Utility function to load external content (for future use)
 async function loadExternalContent(url) {
     try {
-        const response = await fetch(url);
+        // Get build version from meta tag for cache-busting
+        const buildVersion = document.querySelector('meta[name="build"]')?.content || 'default';
+        const separator = url.includes('?') ? '&' : '?';
+        const versionedUrl = `${url}${separator}v=${buildVersion}`;
+        
+        const response = await fetch(versionedUrl, { cache: 'no-store' });
         if (!response.ok) throw new Error('Network response was not ok');
         return await response.json();
     } catch (error) {
