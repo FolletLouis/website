@@ -19,6 +19,15 @@ let contentData = {
     },
     "news": [
         {
+            "date": "2025-11",
+            "title": "Preprint: Photonic Crystal Bolometer",
+            "description": "New preprint 'All-Optical Photonic Crystal Bolometer with Ultra-Low Heat Capacity for Scalable Thermal Imaging'",
+            "type": "publication",
+            "links": [
+                { "text": "arXiv", "url": "https://arxiv.org/abs/2511.22006" }
+            ]
+        },
+        {
             "date": "2025-09",
             "title": "Preprint: Programmable Quantum Matter",
             "description": "New preprint on heralding large cluster states in driven inhomogeneous spin ensembles",
@@ -125,6 +134,17 @@ let contentData = {
         }
     ],
     "publications": [
+        {
+            "title": "All-Optical Photonic Crystal Bolometer with Ultra-Low Heat Capacity for Scalable Thermal Imaging",
+            "authors": "<strong>L. Follet</strong>, J. Goldstein, C. L. Panuski, I. Christen, S. Trajtenberg-Mills,D. R. Englund",
+            "venue": "arXiv preprint, 2025",
+            "year": 2025,
+            "type": "preprint",
+            "firstAuthor": true,
+            "links": [
+                { "text": "arXiv", "url": "https://arxiv.org/abs/2511.22006" }
+            ]
+        },
         {
             "title": "Programmable Quantum Matter: Heralding Large Cluster States in Driven Inhomogeneous Spin Ensembles",
             "authors": "P. Anand*, <strong>L. Follet*</strong>, O. Hooybergs*, D. R. Englund (*Equal contribution)",
