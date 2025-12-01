@@ -136,7 +136,7 @@ let contentData = {
     "publications": [
         {
             "title": "All-Optical Photonic Crystal Bolometer with Ultra-Low Heat Capacity for Scalable Thermal Imaging",
-            "authors": "<strong>L. Follet</strong>, J. Goldstein, C. L. Panuski, I. Christen, S. Trajtenberg-Mills,D. R. Englund",
+            "authors": "<strong>L. Follet</strong>, J. Goldstein, C. L. Panuski, I. Christen, S. Trajtenberg-Mills, D. R. Englund",
             "venue": "arXiv preprint, 2025",
             "year": 2025,
             "type": "preprint",
