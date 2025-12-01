@@ -107,9 +107,10 @@ let contentData = {
         {
             "title": "Photonic Crystal Bolometer",
             "description": "Developing an all-optical bolometer based on photonic crystal cavities for infrared detection, focusing on speed, sensitivity, and optical readout.",
-            "date": "Ongoing",
+            "date": "2025",
             "institution": "MIT",
             "links": [
+                { "text": "Preprint", "url": "https://arxiv.org/abs/2511.22006" },
                 { "text": "Conference", "url": "https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2025-AA121_8" }
             ]
         },
